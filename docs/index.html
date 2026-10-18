@@ -2,64 +2,147 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ludo Supreme – Ludo &amp; Snakes &amp; Ladders for Android</title>
-<meta name="description" content="Ludo Supreme is a free, offline Ludo and Snakes &amp; Ladders game for Android. No ads, no account and no data collection.">
-<meta name="theme-color" content="#0b1020">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ludo Supreme: Ludo and Snakes & Ladders for Android</title>
+<meta name="description" content="Ludo Supreme is a free, offline Android game with Ludo and Snakes & Ladders. No ads, no sign-up, no data collected.">
+<meta name="theme-color" content="#070b14">
 <link rel="icon" href="assets/favicon.png">
 <link rel="stylesheet" href="assets/style.css">
-<meta property="og:title" content="Ludo Supreme – Ludo &amp; Snakes &amp; Ladders for Android">
-<meta property="og:description" content="Ludo Supreme is a free, offline Ludo and Snakes &amp; Ladders game for Android. No ads, no account and no data collection.">
+<meta property="og:title" content="Ludo Supreme: Ludo and Snakes & Ladders for Android">
+<meta property="og:description" content="Ludo Supreme is a free, offline Android game with Ludo and Snakes & Ladders. No ads, no sign-up, no data collected.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/screens/ludo-gameplay.webp">
+<meta property="og:image" content="assets/og-image.png">
 </head>
-<body>
-<header class="site"><div class="wrap">
-<a class="brand" href="index.html"><img src="assets/icon-192.png" alt="" width="34" height="34">Ludo Supreme</a>
-<nav aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></nav>
+<body class="">
+<header class="top"><div class="wrap">
+<a class="brand" href="index.html"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#fff"/><path d="M0 22a22 22 0 0 1 22-22h28v50H0z" fill="#dc3545"/><path d="M50 0h28a22 22 0 0 1 22 22v28H50z" fill="#28a745"/><path d="M0 50h50v50H22A22 22 0 0 1 0 78z" fill="#3478f6"/><path d="M50 50h50v28a22 22 0 0 1-22 22H50z" fill="#ffc107"/><rect x="21" y="21" width="58" height="58" rx="11" fill="#fff"/><g fill="#1e1e28"><circle cx="35" cy="35" r="5.2"/><circle cx="65" cy="35" r="5.2"/><circle cx="50" cy="50" r="5.2"/><circle cx="35" cy="65" r="5.2"/><circle cx="65" cy="65" r="5.2"/></g></svg>Ludo Supreme</a>
+<nav aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="index.html#games">Games</a><a href="index.html#rules">Rules</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></nav>
 </div></header>
 
-<section class="hero"><div class="wrap">
+<main>
+<section class="hero" id="top"><div class="wrap">
 <div>
-<h1>Two classic board games.<br>One free app.</h1>
-<p class="lead">Ludo Supreme brings Ludo and Snakes &amp; Ladders to your phone. Play against the computer or pass the phone to friends &mdash; with 2 to 8 players, optional teams, and rule sets you control.</p>
-<ul class="badges"><li>No ads</li><li>No account needed</li><li>No data collected</li><li>Works offline</li></ul>
-<div class="btns">
-<a class="btn" href="#screens">See gameplay</a>
-<a class="btn alt" href="privacy.html">Privacy Policy</a>
+<h1>Roll the dice. Race home.</h1>
+<p class="lede">Ludo Supreme is a free Android game with two board classics: Ludo and Snakes &amp; Ladders. Play the computer, pass the phone around, or set the rules yourself.</p>
+<ul class="chips"><li class="chip">No ads</li><li class="chip">No sign-up</li><li class="chip">Works offline</li><li class="chip">2 to 8 players</li></ul>
+<div class="cta" style="margin-top:22px">
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.ludosupreme.app">Get it on Google Play</a>
+<a class="btn ghost" href="#rules">Compare the rule sets</a>
 </div>
-<p class="note">Android app &middot; Google Play link: <a href="https://play.google.com/store/apps/details?id=com.ludosupreme.app">Get it on Google Play</a></p>
+<div class="switcher" role="group" aria-label="Preview a game">
+<button class="switch" id="swLudo" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" fill="#fff"/><g fill="#1e1e28"><circle cx="8" cy="8" r="1.9"/><circle cx="16" cy="8" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="8" cy="16" r="1.9"/><circle cx="16" cy="16" r="1.9"/></g></svg>Ludo</button>
+<button class="switch" id="swSnakes" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 3c-6 1-8 5-4 8s3 6-3 9" fill="none" stroke="#22c55e" stroke-width="3.4" stroke-linecap="round"/><circle cx="17.4" cy="3.6" r="2.6" fill="#22c55e"/><line x1="4" y1="21" x2="9" y2="8" stroke="#d97706" stroke-width="1.8" stroke-linecap="round"/><line x1="8" y1="22" x2="13" y2="9" stroke="#d97706" stroke-width="1.8" stroke-linecap="round"/></svg>Snakes &amp; Ladders</button>
 </div>
-<div class="phone"><img src="assets/screens/ludo-gameplay.webp" width="540" height="960" alt="Ludo Supreme gameplay on a phone: a Ludo board with four colours"></div>
+</div>
+<div class="stage" aria-live="polite">
+<div class="glow"></div>
+<div class="art"><div class="ludo-art"><svg viewBox="0 0 320 190" role="img" aria-label="Ludo board with dice and pawns"><g transform="rotate(-7 160 108)"><rect x="58" y="34" width="204" height="150" rx="22" fill="#fff"/><path d="M58 56a22 22 0 0 1 22-22h62v66H58z" fill="#dc3545"/><path d="M178 34h62a22 22 0 0 1 22 22v44h-84z" fill="#28a745"/><path d="M58 100h84v84H80a22 22 0 0 1-22-22z" fill="#3478f6"/><path d="M178 100h84v62a22 22 0 0 1-22 22h-62z" fill="#ffc107"/><rect x="142" y="34" width="36" height="150" fill="#fff"/><rect x="58" y="86" width="204" height="28" fill="#fff"/><circle cx="160" cy="100" r="13" fill="#fff" stroke="#d1d5db" stroke-width="2"/></g><g><ellipse cx="86" cy="150" rx="15" ry="5" fill="rgba(0,0,0,.28)"/><path d="M86 112c8 0 13 6 11 14-1 5-4 7-6 10h8c3 0 5 3 5 6v6H68v-6c0-3 2-6 5-6h8c-2-3-5-5-6-10-2-8 3-14 11-14z" fill="#2563eb" stroke="#fff" stroke-width="2.5"/><ellipse cx="238" cy="62" rx="13" ry="4.5" fill="rgba(0,0,0,.25)"/><path d="M238 28c7 0 11 5 10 12-1 4-3 6-5 9h7c3 0 4 2 4 5v5h-32v-5c0-3 1-5 4-5h7c-2-3-4-5-5-9-1-7 3-12 10-12z" fill="#16a34a" stroke="#fff" stroke-width="2.5"/></g><g class="dice-float"><rect x="132" y="62" width="58" height="58" rx="13" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><g fill="#1e1e28"><circle cx="148" cy="78" r="5"/><circle cx="174" cy="78" r="5"/><circle cx="161" cy="91" r="5"/><circle cx="148" cy="104" r="5"/><circle cx="174" cy="104" r="5"/></g></g></svg></div><div class="snakes-art"><svg viewBox="0 0 320 190" role="img" aria-label="Snakes and ladders board with dice"><defs><clipPath id="heroClip"><rect x="52" y="18" width="216" height="162" rx="20"/></clipPath></defs><rect x="52" y="18" width="216" height="162" rx="20" fill="#fef3c7"/><g opacity=".95" clip-path="url(#heroClip)"><rect x="52" y="18" width="54" height="40" fill="#fecaca"/><rect x="106" y="18" width="54" height="40" fill="#bbf7d0"/><rect x="160" y="18" width="54" height="40" fill="#fef9c3"/><rect x="214" y="18" width="54" height="40" fill="#bfdbfe"/><rect x="52" y="58" width="54" height="41" fill="#bbf7d0"/><rect x="106" y="58" width="54" height="41" fill="#fef9c3"/><rect x="160" y="58" width="54" height="41" fill="#bfdbfe"/><rect x="214" y="58" width="54" height="41" fill="#fecaca"/><rect x="52" y="99" width="54" height="40" fill="#fef9c3"/><rect x="106" y="99" width="54" height="40" fill="#bfdbfe"/><rect x="160" y="99" width="54" height="40" fill="#fecaca"/><rect x="214" y="99" width="54" height="40" fill="#bbf7d0"/><rect x="52" y="139" width="54" height="41" fill="#bfdbfe"/><rect x="106" y="139" width="54" height="41" fill="#fecaca"/><rect x="160" y="139" width="54" height="41" fill="#bbf7d0"/><rect x="214" y="139" width="54" height="41" fill="#fef9c3"/></g><g stroke="#92400e" stroke-width="5" stroke-linecap="round"><line x1="84" y1="172" x2="132" y2="30"/><line x1="104" y1="176" x2="152" y2="34"/><g stroke-width="4"><line x1="90" y1="154" x2="110" y2="160"/><line x1="97" y1="132" x2="117" y2="138"/><line x1="104" y1="110" x2="124" y2="116"/><line x1="111" y1="88" x2="131" y2="94"/><line x1="118" y1="66" x2="138" y2="72"/><line x1="125" y1="46" x2="145" y2="52"/></g></g><path d="M236 28c-26 6-34 22-14 38s18 30-6 42-16 38 14 54" fill="none" stroke="#16a34a" stroke-width="13" stroke-linecap="round"/><path d="M236 28c-26 6-34 22-14 38s18 30-6 42-16 38 14 54" fill="none" stroke="#bbf7d0" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/><g><circle cx="238" cy="28" r="12" fill="#16a34a"/><circle cx="234" cy="25" r="3.6" fill="#fff"/><circle cx="244" cy="25" r="3.6" fill="#fff"/><circle cx="234.6" cy="25.4" r="1.6" fill="#111"/><circle cx="244.6" cy="25.4" r="1.6" fill="#111"/><path d="M238 38v10" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round"/></g><g class="dice-float"><rect x="150" y="70" width="54" height="54" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><g fill="#1e1e28"><circle cx="165" cy="85" r="4.6"/><circle cx="189" cy="85" r="4.6"/><circle cx="165" cy="109" r="4.6"/><circle cx="189" cy="109" r="4.6"/></g></g></svg></div></div>
+<div class="phone"><img src="assets/screens/ludo-gameplay.webp" width="540" height="960" alt="Ludo gameplay on a phone"><img src="assets/screens/snakes-gameplay.webp" width="540" height="960" alt="Snakes and Ladders gameplay on a phone"></div>
+</div>
 </div></section>
 
-<section class="alt" id="features"><div class="wrap">
-<h2>What&rsquo;s inside</h2>
-<div class="grid" style="margin-top:18px">
-<div class="card"><h3>Ludo</h3><p>Roll a 6 to leave base, race your four pawns home and capture opponents. Supports 2&ndash;4 players on the classic board, plus 6- and 8-player star boards.</p></div>
-<div class="card"><h3>Snakes &amp; Ladders</h3><p>Climb ladders, dodge snakes and reach square 100 first. Choose the Classic, Chaotic or Kids board layout.</p></div>
-<div class="card"><h3>Play your way</h3><p>Solo against AI (Easy, Normal, Hard) or <em>Pass N Play</em> with friends on one phone. Optional team play in Ludo.</p></div>
-<div class="card"><h3>Your rules</h3><p>Pick the <strong>Current</strong> or <strong>Standard</strong> rule set, or customise dice mode, blockades, bonus rolls, finish rules and more.</p></div>
-<div class="card"><h3>Stats &amp; save</h3><p>Track games, wins and captures. Pause and continue later, and undo your last move.</p></div>
-<div class="card"><h3>Private by design</h3><p>No ads, no tracking, no sign-up. Game data stays on your device. <a href="privacy.html">Read the policy</a>.</p></div>
+<section id="play"><div class="wrap">
+<h2>Pick how you play</h2>
+<p class="sec-lede">The same four options open both games.</p>
+<div class="tiles">
+<div class="tile"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="6" width="24" height="36" rx="5" fill="#fbbf24" stroke="#1e293b" stroke-width="2.5"/><rect x="16" y="11" width="16" height="22" rx="2" fill="#1e3a8a"/><text x="24" y="27" text-anchor="middle" font-size="10" font-weight="900" fill="#fde68a" font-family="Arial">VS</text><circle cx="24" cy="38" r="1.8" fill="#1e293b"/></svg><b>vs Computer</b><span>Play solo against Easy, Normal or Hard AI</span></div>
+<div class="tile"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="15" cy="16" r="7" fill="#fbbf24"/><path d="M4 40c0-8 5-13 11-13s11 5 11 13z" fill="#fbbf24"/><circle cx="34" cy="18" r="6" fill="#fde68a"/><path d="M24 40c0-7 4-11 10-11s10 4 10 11z" fill="#fde68a"/></svg><b>Pass N Play</b><span>Friends on one phone</span></div>
+<div class="tile"><svg viewBox="0 0 48 48" aria-hidden="true"><g stroke="#fbbf24" stroke-width="3.5" stroke-linecap="round"><line x1="8" y1="14" x2="40" y2="14"/><line x1="8" y1="24" x2="40" y2="24"/><line x1="8" y1="34" x2="40" y2="34"/></g><g fill="#fff" stroke="#1e293b" stroke-width="2"><circle cx="17" cy="14" r="4.5"/><circle cx="32" cy="24" r="4.5"/><circle cx="21" cy="34" r="4.5"/></g></svg><b>Custom Match</b><span>Players and rules</span></div>
+<div class="tile"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="none" stroke="#fbbf24" stroke-width="3"/><path d="M19 15l16 9-16 9z" fill="#fbbf24"/></svg><b>Continue</b><span>Pick up a saved game</span></div>
 </div></div></section>
+
+<section id="games"><div class="wrap">
+<h2>Two games, one app</h2>
+<p class="sec-lede">Switch between them from the home screen at any time.</p>
+<div class="games">
+<article class="gpanel l">
+<div class="gart"><svg viewBox="0 0 320 190" role="img" aria-label="Ludo board with dice and pawns"><g transform="rotate(-7 160 108)"><rect x="58" y="34" width="204" height="150" rx="22" fill="#fff"/><path d="M58 56a22 22 0 0 1 22-22h62v66H58z" fill="#dc3545"/><path d="M178 34h62a22 22 0 0 1 22 22v44h-84z" fill="#28a745"/><path d="M58 100h84v84H80a22 22 0 0 1-22-22z" fill="#3478f6"/><path d="M178 100h84v62a22 22 0 0 1-22 22h-62z" fill="#ffc107"/><rect x="142" y="34" width="36" height="150" fill="#fff"/><rect x="58" y="86" width="204" height="28" fill="#fff"/><circle cx="160" cy="100" r="13" fill="#fff" stroke="#d1d5db" stroke-width="2"/></g><g><ellipse cx="86" cy="150" rx="15" ry="5" fill="rgba(0,0,0,.28)"/><path d="M86 112c8 0 13 6 11 14-1 5-4 7-6 10h8c3 0 5 3 5 6v6H68v-6c0-3 2-6 5-6h8c-2-3-5-5-6-10-2-8 3-14 11-14z" fill="#2563eb" stroke="#fff" stroke-width="2.5"/><ellipse cx="238" cy="62" rx="13" ry="4.5" fill="rgba(0,0,0,.25)"/><path d="M238 28c7 0 11 5 10 12-1 4-3 6-5 9h7c3 0 4 2 4 5v5h-32v-5c0-3 1-5 4-5h7c-2-3-4-5-5-9-1-7 3-12 10-12z" fill="#16a34a" stroke="#fff" stroke-width="2.5"/></g><g class="dice-float"><rect x="132" y="62" width="58" height="58" rx="13" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><g fill="#1e1e28"><circle cx="148" cy="78" r="5"/><circle cx="174" cy="78" r="5"/><circle cx="161" cy="91" r="5"/><circle cx="148" cy="104" r="5"/><circle cx="174" cy="104" r="5"/></g></g></svg></div>
+<h3>Ludo</h3>
+<p>Roll a 6 to leave base, race four pawns around the board and send rivals home.</p>
+<div class="gstat"><div><strong>2&ndash;8</strong><small>players</small></div><div><strong>4</strong><small>pawns each</small></div><div><strong>3</strong><small>board sizes</small></div></div>
+<ul class="facts">
+<li>Classic board for 2 to 4 players, star boards for 6 and 8</li>
+<li>Safe stars, blockades and exact-roll finish</li>
+<li>Dice pool or classic dice</li>
+<li>Optional teams, such as Red and Yellow against Green and Blue</li>
+</ul>
+</article>
+<article class="gpanel s">
+<div class="gart"><svg viewBox="0 0 320 190" role="img" aria-label="Snakes and ladders board with dice"><defs><clipPath id="gameClip"><rect x="52" y="18" width="216" height="162" rx="20"/></clipPath></defs><rect x="52" y="18" width="216" height="162" rx="20" fill="#fef3c7"/><g opacity=".95" clip-path="url(#gameClip)"><rect x="52" y="18" width="54" height="40" fill="#fecaca"/><rect x="106" y="18" width="54" height="40" fill="#bbf7d0"/><rect x="160" y="18" width="54" height="40" fill="#fef9c3"/><rect x="214" y="18" width="54" height="40" fill="#bfdbfe"/><rect x="52" y="58" width="54" height="41" fill="#bbf7d0"/><rect x="106" y="58" width="54" height="41" fill="#fef9c3"/><rect x="160" y="58" width="54" height="41" fill="#bfdbfe"/><rect x="214" y="58" width="54" height="41" fill="#fecaca"/><rect x="52" y="99" width="54" height="40" fill="#fef9c3"/><rect x="106" y="99" width="54" height="40" fill="#bfdbfe"/><rect x="160" y="99" width="54" height="40" fill="#fecaca"/><rect x="214" y="99" width="54" height="40" fill="#bbf7d0"/><rect x="52" y="139" width="54" height="41" fill="#bfdbfe"/><rect x="106" y="139" width="54" height="41" fill="#fecaca"/><rect x="160" y="139" width="54" height="41" fill="#bbf7d0"/><rect x="214" y="139" width="54" height="41" fill="#fef9c3"/></g><g stroke="#92400e" stroke-width="5" stroke-linecap="round"><line x1="84" y1="172" x2="132" y2="30"/><line x1="104" y1="176" x2="152" y2="34"/><g stroke-width="4"><line x1="90" y1="154" x2="110" y2="160"/><line x1="97" y1="132" x2="117" y2="138"/><line x1="104" y1="110" x2="124" y2="116"/><line x1="111" y1="88" x2="131" y2="94"/><line x1="118" y1="66" x2="138" y2="72"/><line x1="125" y1="46" x2="145" y2="52"/></g></g><path d="M236 28c-26 6-34 22-14 38s18 30-6 42-16 38 14 54" fill="none" stroke="#16a34a" stroke-width="13" stroke-linecap="round"/><path d="M236 28c-26 6-34 22-14 38s18 30-6 42-16 38 14 54" fill="none" stroke="#bbf7d0" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/><g><circle cx="238" cy="28" r="12" fill="#16a34a"/><circle cx="234" cy="25" r="3.6" fill="#fff"/><circle cx="244" cy="25" r="3.6" fill="#fff"/><circle cx="234.6" cy="25.4" r="1.6" fill="#111"/><circle cx="244.6" cy="25.4" r="1.6" fill="#111"/><path d="M238 38v10" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round"/></g><g class="dice-float"><rect x="150" y="70" width="54" height="54" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><g fill="#1e1e28"><circle cx="165" cy="85" r="4.6"/><circle cx="189" cy="85" r="4.6"/><circle cx="165" cy="109" r="4.6"/><circle cx="189" cy="109" r="4.6"/></g></g></svg></div>
+<h3>Snakes &amp; Ladders</h3>
+<p>Climb ladders, slide down snakes and be first to square 100.</p>
+<div class="gstat"><div><strong>100</strong><small>squares</small></div><div><strong>3</strong><small>board layouts</small></div><div><strong>1</strong><small>token each</small></div></div>
+<ul class="facts">
+<li>Classic, Chaotic (more snakes) or Kids (more ladders) boards</li>
+<li>Exact finish, or bounce back from 100</li>
+<li>Share a square, or send opponents back to 1</li>
+<li>Optional bonus squares: extra roll, or swap with the leader</li>
+</ul>
+</article>
+</div></div></section>
+
+<section id="rules"><div class="wrap">
+<h2>Choose your rules</h2>
+<p class="sec-lede">Every match starts with a rule set. <strong>Current</strong> is the app&rsquo;s default. <strong>Standard</strong> follows the traditional game. Change any single option and it becomes <strong>Custom</strong>.</p>
+<div class="rules">
+<div class="rpanel l"><h3>Ludo</h3>
+<table><thead><tr><th></th><th>Current</th><th>Standard</th></tr></thead><tbody>
+<tr><th scope="row">Dice</th><td>Dice pool: a 6 rolls again, up to 3 dice</td><td>Classic: move after every roll</td></tr>
+<tr><th scope="row">Bonus roll</th><td>On a 6, a capture or reaching home</td><td>On a 6 only</td></tr>
+<tr><th scope="row">Blockades</th><td>Two pawns block opponents</td><td>Off</td></tr>
+<tr><th scope="row">Three 6s</th><td>Pool is cancelled</td><td>Turn is forfeited</td></tr>
+</tbody></table></div>
+<div class="rpanel s"><h3>Snakes &amp; Ladders</h3>
+<table><thead><tr><th></th><th>Current</th><th>Standard</th></tr></thead><tbody>
+<tr><th scope="row">Dice</th><td>Bank sixes: roll again, move once</td><td>Classic: move every roll, 6 is an extra turn</td></tr>
+<tr><th scope="row">Board</th><td colspan="2">Classic</td></tr>
+<tr><th scope="row">Opponents</th><td colspan="2">Share a square</td></tr>
+<tr><th scope="row">Bonus squares</th><td colspan="2">Off</td></tr>
+<tr><th scope="row">Finish</th><td colspan="2">Exact roll to land on 100</td></tr>
+</tbody></table></div>
+</div>
+<p class="note">Rule sets are chosen in the match setup screen, before you start.</p>
+</div></section>
 
 <section id="screens"><div class="wrap">
-<h2>Screenshots</h2>
-<p class="meta">Real screenshots taken from the app.</p>
-<div class="shots" tabindex="0" aria-label="Screenshot gallery"><figure><img src="assets/screens/home.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: Home screen"><figcaption>Home screen</figcaption></figure><figure><img src="assets/screens/ludo-gameplay.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: Ludo gameplay"><figcaption>Ludo gameplay</figcaption></figure><figure><img src="assets/screens/snakes-gameplay.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: Snakes &amp; Ladders gameplay"><figcaption>Snakes &amp; Ladders gameplay</figcaption></figure><figure><img src="assets/screens/ludo-setup.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: Match setup &amp; rule sets"><figcaption>Match setup &amp; rule sets</figcaption></figure><figure><img src="assets/screens/snakes-setup.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: Snakes &amp; Ladders setup"><figcaption>Snakes &amp; Ladders setup</figcaption></figure><figure><img src="assets/screens/ludo-rules.webp" width="210" height="373" loading="lazy" alt="Ludo Supreme screenshot: In-game rules"><figcaption>In-game rules</figcaption></figure></div>
+<h2>See it in play</h2>
+<p class="sec-lede">Screenshots taken straight from the app.</p>
+<div class="rail" tabindex="0" aria-label="Screenshot gallery"><figure><img src="assets/screens/home.webp" width="210" height="373" alt="Screenshot: Home screen" style="--c:#818cf8;--cg:rgba(129,140,248,.3)"><figcaption>Home screen</figcaption></figure><figure><img src="assets/screens/ludo-gameplay.webp" width="210" height="373" loading="lazy" alt="Screenshot: Ludo board" style="--c:#818cf8;--cg:rgba(129,140,248,.3)"><figcaption>Ludo board</figcaption></figure><figure><img src="assets/screens/ludo-setup.webp" width="210" height="373" loading="lazy" alt="Screenshot: Ludo match setup" style="--c:#818cf8;--cg:rgba(129,140,248,.3)"><figcaption>Ludo match setup</figcaption></figure><figure><img src="assets/screens/ludo-rules.webp" width="210" height="373" loading="lazy" alt="Screenshot: In-game rules" style="--c:#818cf8;--cg:rgba(129,140,248,.3)"><figcaption>In-game rules</figcaption></figure><figure><img src="assets/screens/snakes-gameplay.webp" width="210" height="373" loading="lazy" alt="Screenshot: Snakes &amp; Ladders board" style="--c:#34d399;--cg:rgba(52,211,153,.28)"><figcaption>Snakes &amp; Ladders board</figcaption></figure><figure><img src="assets/screens/snakes-setup.webp" width="210" height="373" loading="lazy" alt="Screenshot: Snakes &amp; Ladders setup" style="--c:#34d399;--cg:rgba(52,211,153,.28)"><figcaption>Snakes &amp; Ladders setup</figcaption></figure></div>
 </div></section>
 
-<section class="alt" id="rules"><div class="wrap">
-<h2>Rules at a glance</h2>
-<div class="grid" style="margin-top:18px">
-<div class="card"><h3>Ludo</h3><p>Roll a 6 to bring a pawn out. Land on a lone opponent to send it back to base. Start squares and &#9733; squares are safe. Reach home with an exact roll. The first player (or team) to bring all pawns home wins.</p></div>
-<div class="card"><h3>Snakes &amp; Ladders</h3><p>Every token starts on square 1. Ladders move you up, snakes slide you down. Reach square 100 first &mdash; by default you need the exact roll to finish.</p></div>
-<div class="card"><h3>Rule sets</h3><p><strong>Current</strong> uses the app&rsquo;s default rules (dice pool, blockades, bonus rolls). <strong>Standard</strong> uses traditional rules (classic dice, no blockades, a bonus roll only from a 6, three 6s forfeit the turn). Choose <strong>Custom</strong> to mix options.</p></div>
+<section id="privacy"><div class="wrap">
+<div class="priv">
+<div>
+<h2>Nothing leaves your phone.</h2>
+<p>There are no ads, no accounts and no analytics. Your settings, saved games and stats stay on your device, and you can wipe them any time.</p>
+<a class="btn" href="privacy.html">Read the privacy policy</a>
+</div>
+<ul class="chips">
+<li class="chip"><span class="tick">&#10003;</span> No ads or ad SDKs</li>
+<li class="chip"><span class="tick">&#10003;</span> No analytics or tracking</li>
+<li class="chip"><span class="tick">&#10003;</span> No account required</li>
+<li class="chip"><span class="tick">&#10003;</span> Plays fully offline</li>
+</ul>
 </div></div></section>
-
-<footer class="site"><div class="wrap">
+</main>
+<footer><div class="wrap">
+<div><p><strong style="color:var(--text)">Ludo Supreme</strong><br>Ludo and Snakes &amp; Ladders for Android, by Shahjahan Kabir.</p></div>
 <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="contact.html">Contact</a></div>
-<div>&copy; 2026 Shahjahan Kabir. Ludo Supreme is an independent game and is not affiliated with or endorsed by Google.</div>
+<p>&copy; 2026 Shahjahan Kabir. Independent game, not affiliated with or endorsed by Google. Google Play is a trademark of Google LLC.</p>
 </div></footer>
+<nav class="bar" aria-label="Site menu"><a href="index.html" aria-current="page"><span aria-hidden="true">🏠</span>Home</a><a href="index.html#games"><span aria-hidden="true">🎲</span>Games</a><a href="index.html#rules"><span aria-hidden="true">📖</span>Rules</a><a href="privacy.html"><span aria-hidden="true">🔒</span>Privacy</a><a href="contact.html"><span aria-hidden="true">✉️</span>Contact</a></nav>
+<script>
+(function(){
+  var b=document.body,l=document.getElementById("swLudo"),s=document.getElementById("swSnakes");
+  function set(snakes){
+    b.classList.toggle("snakes",snakes);
+    l.setAttribute("aria-pressed",String(!snakes));
+    s.setAttribute("aria-pressed",String(snakes));
+    var m=document.querySelector('meta[name="theme-color"]');
+  }
+  l.addEventListener("click",function(){set(false)});
+  s.addEventListener("click",function(){set(true)});
+  if(location.hash==="#snakes")set(true);
+})();
+</script>
 </body></html>

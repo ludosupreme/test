@@ -1,6 +1,6 @@
 # Ludo Supreme – website (GitHub Pages)
 
-Static site: `index.html`, `privacy.html`, `terms.html`, `contact.html`, `404.html`. No external requests (no fonts, scripts or trackers).
+Static site: `index.html`, `privacy.html`, `terms.html`, `contact.html`, `404.html`. Styled after the game itself (Inter font is self-hosted in `assets/fonts`). No external requests: no CDN fonts, scripts or trackers.
 
 ## 1. Fill in the placeholders (required before publishing)
 Replace these three tokens in all `.html` files:
